@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="content">
+        <h1>Event in java</h1>
+        <div class="button_container">
+            <!-- first way of writing event  -->
+            <div class="button_su">
+                <span class="su_button_circle"></span>
+                <a href="#" class="button_su_inner" onclick="alert('i am')">
+                    <span class="button_text_container">simple inline alert</span>
+                </a>
+            </div>
+
+            <!-- second way of writing event  -->
+
+            <div class="button_su">
+                <span class="su_button_circle"></span>
+                <a href="#" class="button_su_inner" onclick="callingfunction()">
+                    <span class="button_text_container">
+                        By calling a function
+                    </span>
+                </a>
+            </div>
+          
+
+            <!-- 3rd way of writing event  -->
+
+
+            <div class="button_su">
+                <span class="su_button_circle"></span>
+                <a href="#" class="button_su_inner">
+                    <span class="button_text_container" id="thirdway">
+                        Inline Event
+                    </span>
+                </a>
+            </div>
+
+
+            <!-- 4th way of writing event  -->
+
+            <div class="button_su">
+                <span class="su_button_circle"></span>
+                <a href="#" class="button_su_inner" id="fourtway">
+                    <span class="button_text_container">
+                        Event listeners
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
